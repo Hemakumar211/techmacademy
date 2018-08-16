@@ -1,0 +1,18 @@
+pdgadek0@email.cpcc.edu
+Project@1
+
+graphana admin/Project1
+
+ps aux |grep prometheus
+sudo service prometheus restart
+service prometheus status
+
+graphana
+http://ec2-34-219-9-18.us-west-2.compute.amazonaws.com:3000/dashboard/new?gettingstarted&panelId=2&fullscreen&edit&orgId=1&tab=general
+
+Prometheus
+http://ec2-34-219-9-18.us-west-2.compute.amazonaws.com:9090/graph?g0.range_input=1h&g0.expr=node_memory_Active_bytes&g0.tab=0
+
+alerts
+http://ec2-34-219-9-18.us-west-2.compute.amazonaws.com:9093/#/alerts
+
